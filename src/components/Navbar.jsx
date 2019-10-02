@@ -16,9 +16,8 @@ Click the toggle to verify
 
 */
 
-import useDarkMode from '../hooks/useDarkMode.js'
-
 import React, { useState } from 'react';
+import useDarkMode from '../hooks/useDarkMode.js'
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useDarkMode(false);
@@ -40,3 +39,10 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+/* Explainiing The Code
+
+Line 20: We import our custom hook, "UseDarkMode" from our file UseDarkMode.JS 
+  and then introduce it into our Navbar function toggle.
+
+*/
