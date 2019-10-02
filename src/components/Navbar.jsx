@@ -16,7 +16,7 @@ Click the toggle to verify
 
 */
 
-import React, { useState } from 'react';
+import React from 'react';
 import useDarkMode from '../hooks/useDarkMode.js'
 
 const Navbar = () => {
