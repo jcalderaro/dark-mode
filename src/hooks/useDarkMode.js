@@ -56,25 +56,25 @@ export default useDarkMode;
 
 /* Explainiing The Code
 
-Line 36:
-Line 37:
-Line 38:
-Line 39:
-Line 40:
-Line 41:
-Line 42:
-Line 43:
-Line 44:
-Line 45:
-Line 46:
-Line 47:
-Line 48:
-Line 49:
-Line 50:
-Line 51:
-Line 52:
-Line 53:
-Line 54:
-Line 55:
+Line 36: We are IMPORTING our Custom Hook, UseLocalStorage, from UseLocalStorage.JS
+Line 37: We are IMPORTING, UseEffect, from React natively
+Line 38: - Empty Space
+Line 39: We create our custom hook, constant, useDarkMode, that takes in the properities and logic in line 40.
+Line 40: We are in a constant state between the initial stored value, and what becomes the new stored value. Creating the toggle option.
+Line 41: - Empty Space
+Line 42: - Console log
+Line 43: - Empty Space
+Line 44: We create the useEffect parameter inside the function UseDarkMode
+Line 45: We set the location to StoredValue
+Line 46: If the Stored Value on the document body's class list is NOT found, add ("Dark-Mode")
+Line 47: If the Stored Value on the document body's class list is found, remove ("Dark-Mode")
+Line 48: - Notation
+Line 49: - ?
+Line 50: - Empty Space
+Line 51: Returning our value arrays
+Line 52: - Empty Space
+Line 53: - Notation
+Line 54: - Empty Space
+Line 55: We are EXPORTING our Custom Hook, UseDarkMode, so that it can be referenced later on.
 
 */
